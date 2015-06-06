@@ -1,0 +1,65 @@
+/* ------ Left column / Right column content------ */
+#xo-canvas-leftcolumn .xo-block, #xo-canvas-rightcolumn .xo-block {
+	margin-bottom:	10px;
+}
+
+#xo-canvas-leftcolumn .xo-blocktitle, #xo-canvas-rightcolumn .xo-blocktitle {
+	 height: 37px; width: 200px;
+			padding: 0; background: #f3f3f3 url(images/h3.jpg) top center no-repeat; font-weight: bold; 
+}
+#xo-canvas-leftcolumn .xo-blocktitle h3, #xo-canvas-rightcolumn .xo-blocktitle h3 {
+	color: #2286b3; font-family: Tahoma, Arial, sans-serif; font-size: 11px; text-align: center;
+	line-height: 37px; margin: 0; text-transform: uppercase;
+}
+
+#xo-canvas-leftcolumn .xo-blockcontent, #xo-canvas-rightcolumn .xo-blockcontent {
+	line-height: 1.2em;
+	line-height: 120%; 
+	margin-bottom:4px; 
+	margin-left:10px; 
+	/*margin-right:10px; */
+	background:#fff; 
+	border-right:1px solid #ccc; 
+	border-left:1px solid #ccc; 
+	border-bottom:1px solid #ccc; 
+	overflow:hidden;
+	width:100%;
+}
+
+#xo-canvas-leftcolumn .xo-block.system .xo-blockcontent {
+	padding: 0;
+}
+
+#xo-canvas-leftcolumn th, #xo-canvas-rightcolumn th {
+	background-color: #ECF1FB;
+	color: #000;
+	font-size: 100%;
+	font-weight:normal;
+}
+
+/* ------ Center column content ------ */
+#xo-page th {
+	background: url( img/bg-lr-titles.gif ); background-color: #ffb500; color: #4e4e4e; vertical-align: middle;
+}
+
+#xo-page .xo-block {
+	margin-bottom: 5px;
+	/*border: 1px solid #ddd;*/
+}
+
+#xo-page .xo-blocktitle {
+	padding: .2em;
+	border-bottom: 1px solid #ddd;
+	margin: 0 .5em;
+}
+
+#xo-page .xo-blocktitle h3 {
+	color: #2286b3;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+#xo-page .xo-blockcontent {
+	padding: .5em;
+}
